@@ -8,7 +8,7 @@ import google.generativeai as genai
 
 
 # Configure the API key
-genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
+genai.configure(api_key=os.getenv("AIzaSyB-TV0TQ2sI6eGshh3_8zqKoDuoIsFxcRs"))
 
 # Function to load gemini model and generate text
 model = genai.GenerativeModel("gemini-pro-vision")
